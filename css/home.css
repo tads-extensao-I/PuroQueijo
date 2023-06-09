@@ -1,0 +1,108 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: #313131;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Courgette', cursive;
+    color: white;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho img {
+    height: 170px;
+    width: 170px;
+    display: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#puro {
+    color: #E0871A;
+    margin-right: 5px;
+}
+
+.menu {
+    background-color: #D0D0D0;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Poppins', sans-serif;
+    justify-content: flex-end;
+    border-radius: 15px;
+}
+
+.menu a {
+    color: #817C8C;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #313131;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 80px;
+    margin-right: 80px;
+    flex-wrap: wrap;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    color: white;
+  font-size: 1.4rem;
+  width: 50%;
+}
+
+.texto h1 {
+    color: #E0871A;
+    font-family: 'Great Vibes', cursive;
+   font-weight: 100;
+   font-size: 4.5rem;
+}
+
+
+.botoes a{
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   text-decoration: none;
+   padding: 15px;
+   background-color: #E0871A;
+   border-radius: 7px;
+   font-size: 1.0rem;
+   margin:  10px;
+   border: 2px solid #E0871A;;
+}
+
+.botoes a:hover{
+    font-weight: bold;
+}
+.botoes{
+ margin:  10px;
+}
+#escuro{
+    background-color: #313131;
+    color: #E0871A;
+    border: 2px solid black;
+}
