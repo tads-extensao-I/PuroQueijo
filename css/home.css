@@ -80,6 +80,7 @@ body {
     font-family: 'Great Vibes', cursive;
    font-weight: 100;
    font-size: 4.5rem;
+   
 }
 
 
@@ -105,4 +106,15 @@ body {
     background-color: #313131;
     color: #E0871A;
     border: 2px solid black;
+}
+.card{
+    z-index: 1;
+    
+}
+.cartao2{
+    z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    margin: -180px;
+    margin-right: 110px;
 }
