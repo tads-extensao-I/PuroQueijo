@@ -14,7 +14,7 @@
     /*===== Cores =====*/
     --color-black: #000;
     --color-white: #fff;
-    --background-color-section: #a9a8a8;
+    --background-color-section: #732C02;
 
 
     /*----- Primaria -----*/
@@ -89,6 +89,7 @@ a{
 
 .logo h1 {
     color: #fff;
+    font-size: 34px;
 }
 
 .nav-list {
@@ -114,6 +115,11 @@ a{
     background-color: var(--grey-300);
     padding: 6px 16px;
     border-radius: 4px;
+}
+
+.nav-link:hover {
+    background-color: var(--Primary-color-500);
+    transition: .3s;
 }
 
 .login-button button {
@@ -203,6 +209,7 @@ a{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .home__info-btn-2 {
@@ -215,6 +222,7 @@ a{
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*  ============================ START PRODUTO ======================  */
@@ -329,7 +337,7 @@ a{
 }
 
 .produto__card-tamanho-item {
-    background-color: var(--background-color-section);
+    background-color: var(--grey-200);
     padding: 6px 14px;
     border-radius: var(--spacing-8);
     font-family: var(--font-dm-sans);
