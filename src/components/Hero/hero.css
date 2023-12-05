@@ -1,0 +1,88 @@
+.hero {
+    background-color: var(--background-color-section);
+    height: 85vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero_titulo {
+    color: var(--bg-color-section);
+    font-weight: 600;
+    font-size: 85px;
+    text-align: center;
+    font-family: var(--font-logo);
+}
+
+
+.hero_sub {
+    color: var(--bg-color-section);
+    font-family: var(--font-title);
+    text-align: justify;
+}
+
+
+.hero_btn_produto  {
+    background-color: var(--Primary-color-500);
+    color: #fff;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.09);
+    padding: 10px 40px;
+    font-family: var(--font-title);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero_btn_produto:hover {
+    background-color: var(--Primary-color-400);
+    color: var(--grey-100);
+}
+.hero_btn_empresa{
+    padding: 10px 40px;
+    border-radius: 8px;
+    background-color: var(--bg-color-section);
+    color: #fff;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.09);
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hero_btn_empresa:hover {
+    background-color: var(--Secundary-color-400) !important;
+    color: var(--grey-100);
+}
+
+@media (max-width: 436px) {
+    .hero_titulo {
+        font-size: 50px !important;   
+    }
+}
+
+
+@media (max-width: 576px) { 
+   
+}
+
+@media (max-width: 768px) { 
+    .hero_titulo {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 996px){
+    .hero_buttons{
+        margin-left: 0px !important;
+    }
+}
+
+
+@media (max-width: 1200px) { 
+    .hero_imagem {
+        display: none;
+    }
+    .hero_conteudo {
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+        align-items: center;
+    }
+}

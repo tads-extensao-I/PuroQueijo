@@ -1,0 +1,94 @@
+.navbar{
+    background-color: var(--background-color-section);
+    font-family: var(--font-logo);
+}
+.offcanvas-header{
+    background-color: var(--background-color-section);
+}
+
+.menu_titulo{
+    font-size: 35px;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.contatos_barra {
+    font-size: 14px;
+    color: var(--bg-color-section);
+}
+.contatos_barra i{
+    font-size: 24px;
+}
+
+.contatos_barra-span {
+    font-weight: 700;
+}
+.barra-superior {
+    background-color: var(--Primary-color-500);
+}
+
+.barra-icons {
+    font-size: 24px;
+    color: var(--bg-color-section);
+}
+
+.titulo_color {
+    color: var(--bg-color-section);
+}
+.menu_btn{
+    color:var(--bg-color-section);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.btn_login {
+    color: #000;
+    font-weight: 700;
+    font-family: var(--font-title);
+    font-size: 20px;
+    background-color: var(--Primary-color-500);
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+.btn_login:hover {
+    background-color: var(--Primary-color-400)
+}
+
+
+.menu_btn:hover{
+    color: var(--Secundary-color-100) ;
+    transition: .3s;
+}
+.menu_logo {
+    width: 80px;
+}
+
+.nav__login {
+    color: #fff;
+    font-size: 34px;
+}
+
+@media (max-width: 430px) {
+
+}
+
+@media (max-width: 576px) { 
+    
+}
+
+@media (max-width: 768px) { 
+    .contatos_barra {
+        flex-direction: column;
+        gap: 5px !important;
+    }
+}
+
+@media (max-width: 992px) { 
+
+}
+
+@media (max-width: 1200px) { 
+    
+}
